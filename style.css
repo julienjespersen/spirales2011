@@ -1,0 +1,274 @@
+/*
+orange = #F28E1C
+purple = #51519B
+blue dark = #003782
+blue = #2AA6DC
+blue light = #C0E1E8
+green light = #89CAB6
+grey = #5E738E
+
+*/
+@import url(https://fonts.googleapis.com/css?family=Cantarell:400,700,400italic,700italic);
+
+body {
+	font-family: 'Cantarell', sans-serif;
+	font-size: 12pt;
+	color: #fff;
+	margin: .5%;
+	background: #003782 center top no-repeat url(./images/spir_v01.png);
+}
+h1 {
+	font-size: 2.5em;
+	line-height: .8em;
+	color: #F28E1C;
+}
+h2 {
+	font-size: 1.4em;
+	font-weight: normal;
+	line-height: 1em;
+	margin-bottom: 0em;
+	color: #fff;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+	border: 0em;
+}
+ul {
+	margin: 0em;
+	padding-left: 1.5em;
+  
+}
+img {
+	border: 0em;
+}
+form {
+	text-align: center;
+	color: #F28E1C;
+}
+form * {
+	font-size: .8em;
+}
+input[type=email] {
+	border-radius: 2px;
+	border: solid 1px #F28E1C;
+	color: #fff;
+	background: none;
+}
+input[type=submit] {
+	border-radius: 2px;
+	color: #F28E1C;
+	border: solid 1px;
+	background: none;
+}
+input[type=submit]:hover {	border: none;
+	color: #003782;
+	border: solid 1px;
+	background: #F28E1C;
+}
+.sem1 {
+	top: 3em;
+ 	z-index: 100;
+}
+.sem2 {
+	top: 67em;
+ 	z-index: 1;
+}
+#design {
+	position: absolute;
+	top: 160em;
+	left: 10%;
+	width: 80%;
+	z-index: 0;
+}
+#design p {
+	font-size: .65em;
+	font-variant: small-caps;
+	text-align: center;
+	color: #51519B;
+	border-top: solid 1px;
+}
+.jour {
+	position: absolute;
+	border-radius: 6px;
+	max-width: 16em;
+	min-width: 6em;
+	width: 12%;
+	max-height: 100em;
+	margin-right: .5%;
+	margin-bottom: .25em;
+	padding: .5%;
+	background: #2AA6DC;
+	overflow: hidden;
+	/*box-shadow: 0px 4px 12px rgba(255,255,255,.5);*/
+}
+#poz0 {left:54.5%}	
+#poz1 {left:68%}	
+#poz2 {left:81.5%}	
+#poz3 {left:0.5%}	
+#poz4 {left:14%}	
+#poz5 {left:27.5%}	
+#poz6 {left:41%}	
+#poz7 {left:54.5%}	
+#poz8 {left:68%}	
+#poz9 {left:81.5%}	
+
+#jour4 {
+	top: 3em;
+	max-width: 16em;
+	min-width: 6em;
+	width: 12%;
+	background: #000;
+	background-color: rgba(0,0,0,.6);
+}
+#jour44 {
+	top: 3em;
+	left: 14%;
+	max-width: 64em;
+	min-width: 12em;
+	width: 36.5%;
+	background: #4f6;
+	background-color: rgba(51,51,155,.8);
+}
+#jour44 h3 {
+	line-height: 1em;
+	background: none;
+	cursor: default;
+}
+#jour4 * {
+	float: left;
+	text-align: center;
+	width: 96px;
+	margin: .5em;
+}
+#jour4 div {
+	color: #2AA6DC;
+}
+.heading {
+	color: #fff;
+	margin-top: 1em;
+}
+#soutien {
+	margin-top: 1em;
+	border-radius: 6px;
+	background: #000;
+	background-color: rgba(0,0,0,.6);
+}
+#soutien_txt {
+	font-size: .65em;
+	font-variant: small-caps;
+	text-align: center;
+	color: #2AA6DC;
+	margin: 2em;
+	border-bottom: solid 1px;
+}
+#soutien_img {
+	text-align: center;
+	letter-spacing: 0.1em;
+}
+.part_lieu {
+	font-size: .9em;
+	color: #fff;
+}
+
+#jour44 .part_descr {
+	font-size: .75em;
+	color: #89CAB6;
+}
+.jour_nom {
+	text-align: center;
+	font-weight: bold;
+	font-size: 0.9em;
+	line-height: 0.8em;
+	margin-bottom: 0.5em;
+	color: #003782; /*#003782 2080a8  003782*/
+	text-shadow: 0px 1px 0px #7dd8ff, 0px -1px 0px #1b6a8c;
+}
+h3 {
+	margin-top: 0em;
+	margin-bottom: 0em;
+	padding: .15em;
+	line-height: 0.6em;
+	border-radius: 4px;
+	background: #5E738E;
+	cursor: pointer;
+}
+h4 {
+	font-size: 0.6em;
+	margin: 0.4em;
+}
+.seance {
+	border: solid 1px #fff;
+	border-radius: 4px;
+	margin-bottom: 1em;
+	padding: .15em;
+}
+.seance_heure {
+	font-size: .6em;
+	font-weight: normal;
+	color: #5E738E;
+	margin: 0em;
+	padding: .2em .2em 0em .2em;
+	border-radius: 2px;
+	background: #fff;
+}
+.seance_lieu {
+	font-size: .7em;
+	font-weight: normal;
+	color: #fff;
+}
+.seance_titre {
+	font-size: .6em;
+	font-weight: bold;
+	color: #89CAB6;
+}
+.seance_billeterie {
+	font-size: .6em;
+	text-align: center;
+	margin: 0em;
+	padding: 0em .2em;
+	border: solid 1px #fff;
+	border-radius: 2px;
+	color: #fff;
+	background: none;
+}
+.seance_billeterie:hover {
+	font-weight: bold;
+	color: #003782;
+	background: #fff;
+}
+
+.seance_texte {
+	font-size: 0.75em;
+	color: #003782;
+	display: none;
+}
+.jour dl {
+	padding: 0em;
+	margin: 0em;
+}
+.jour dt {
+}
+.jour dd {
+	padding: 0em;
+	margin: 0em;
+}
+.film_titre {
+	font-size: .6em;
+	font-weight: bold;
+	font-style: italic;
+	color: #003782;
+	margin: 1em .2em;
+	padding: 0em;
+	border-radius: 2px;
+	background: #F28E1C;
+	cursor: pointer;
+}
+.film_texte {
+	font-size: .6em;
+	color: #51519B;
+	display: none;
+}
+.film_generique {
+	color: #fff;
+}
